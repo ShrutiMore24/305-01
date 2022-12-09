@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .main {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .topDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 15vh;
+            width: 100vw;
+            background-color: rgb(4, 4, 48);
+            color: white;
+        }
+
+        .bottomdiv {
+            display: flex;
+            width: 70vw;
+            flex-wrap: wrap;
+        }
+
+ 
+
+        img {
+            height: 250px;
+            width: 300px;
+            border: 2px solid transparent;
+            border-radius: 15px;
+        }
+        .one{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="topDiv">
+            <h1>CSS FlexBox Photo Gallary</h1>
+        </div>
+
+        <div class="one">
+            <div class="bottomdiv">
+                <div class="child"><img
+                        src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt=""></div>
+                <div class="child"><img src="./cat2.jpg" alt=""></div>
+
+                <div class="child"><img src="./cat3.jpg" alt=""></div>
+
+                <div class="child"><img src="./cat4.jpg" alt=""></div>
+
+                <div class="child"><img src="./cat5.jpg" alt=""></div>
+
+                <div class="child"><img src="./cat6.jpg" alt=""></div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
